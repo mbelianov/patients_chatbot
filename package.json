@@ -1,0 +1,28 @@
+{
+  "name": "patients_chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot to reply examination results to patients, reading them from Google spreadsheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mbelianov/patient_chatbot.git"
+  },
+  "author": "Martin Beyanov (mbelianov@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbelianov/patient_chatbot/issues"
+  },
+  "homepage": "https://github.com/mbelianov/patient_chatbot#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "google-spreadsheet": "^3.0.11",
+    "jsonwebtoken": "^8.5.1",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}
